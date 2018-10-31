@@ -21,7 +21,7 @@ class App extends Component {
             <ProfileHome path="/" />
             <Photos path="photos" />
             <Friends path="friends" />
-            <FriendProfile path=":friendName" />
+            <FriendProfile path=":friendId" />
           </Profile>
         </Router>
       </React.Fragment>
